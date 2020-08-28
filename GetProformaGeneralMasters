@@ -1,0 +1,75 @@
+{
+    "priceDetails": [
+        {
+            "key": "HSN Code",
+            "value": "87033391"
+        },
+        {
+            "key": "Ex-Showroom",
+            "value": "133333.33"
+        },
+        {
+            "key": "Net Ex-Showroom",
+            "value": "133333.33"
+        },
+        {
+            "key": "Amount Discount",
+            "value": "133333.33"
+        }
+    ],
+    "selectMasterList": [
+        {
+            "listType": "SALE_GROUP",
+            "defaultSelectCode": "RETAIL",
+            "dropdownText": "",
+            "dropdownType": "dropdownList",
+            "necessaryField": "N",
+            "basicList": [
+                {
+                    "group": "SALE_GROUP",
+                    "code": "RETAIL",
+                    "description": "Retail Customer"
+                },
+                {
+                    "group": "SALE_GROUP",
+                    "code": "SELF",
+                    "description": "Self"
+                },
+                {
+                    "group": "SALE_GROUP",
+                    "code": "IDT",
+                    "description": "IDT"
+                }
+            ]
+        },
+        {
+            "listType": "END_USE",
+            "defaultSelectCode": "",
+            "dropdownText": "",
+            "dropdownType": "dropdownList",
+            "necessaryField": "N",
+            "basicList": [
+                {
+                    "group": "END_USE",
+                    "code": "CS",
+                    "description": "CSD Customer"
+                },
+                {
+                    "group": "END_USE",
+                    "code": "EU",
+                    "description": "End Use Customer"
+                },
+                {
+                    "group": "END_USE",
+                    "code": "GV",
+                    "description": "Government Vehicle"
+                },
+                {
+                    "group": "END_USE",
+                    "code": "RU",
+                    "description": "Registered User"
+                }
+            ]
+        }
+    ]
+}
